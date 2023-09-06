@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-4</title>
+  </head>
+
+  <style>
+    td{
+        padding: 5px 15px;
+    }
+    button{
+        border: 2px;
+        border-color: yellow;
+    }
+  </style>
+
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="fn">Full Name:</label></td>
+          <td><input type="text" name="fn" placeholder="Enter your name" /></td>
+        </tr>
+        <tr>
+          <td><label for="un">Username:</label></td>
+          <td><input type="text" name="un" placeholder="Username" /></td>
+        </tr>
+        <tr>
+          <td><label for="pass">Password:</label></td>
+          <td><input type="password" name="pass" placeholder="Password"</td>
+        </tr>
+        <tr>
+          <td><label for="rpass">Re Password:</label></td>
+          <td><input type="password" name="rpass" placeholder="Re Password"</td>
+        </tr>
+        <tr>
+          <td><label for="ad">Address:</label></td>
+          <td><input type="text" name="ad" placeholder="Address" /></td>
+        </tr>
+        <tr>
+          <td><label for="ag">Age:</label></td>
+          <td><input type="number" name="ag" placeholder="Age" /></td>
+        </tr>
+        <tr>
+          <td><label>Gender:</label></td>
+          <td>
+            <select>
+              <option value="female">Male</option>
+              <option value="male">Female</option>
+              <option>Not to mention</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input  type="button" value="Save" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
